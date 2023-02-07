@@ -6,8 +6,6 @@ Since `rm -rf` is so dangerous, many people have wondered why it doesn't have a 
 
 rmdryrun is a Linux shell script that simulates the behavior of the `rm` command, but instead of actually deleting files, it displays a list of files and directories that would be deleted.
 
-You use it to show what you would delete if you ran `rm`.  rmdryrun does not have feature parity with `rm` and is just meant to give an indication. It does not contain any deletion code.
-
 ## Installation
 
 ### Clone or download the repository.
