@@ -2,7 +2,7 @@
 
 Since `rm -rf` is so dangerous, many people have wondered why it doesn't have a `--dry-run` switch.  It's time to stop wondering and do something about it.
 
-## rmdryrun
+## `rmdryrun`
 
 rmdryrun is a Linux shell script that simulates the behavior of the `rm` command, but instead of actually deleting files, it displays a list of files and directories that would be deleted.
 
