@@ -20,7 +20,7 @@ or just get the file:
 
 
 ```
-curl https://raw.githubusercontent.com/robss2020/rmdryrun/main/rmdryrun.sh
+curl https://raw.githubusercontent.com/robss2020/rmdryrun/main/rmdryrun.sh > rmdryrun.sh
 ```
 
 or
