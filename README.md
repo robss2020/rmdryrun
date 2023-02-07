@@ -54,7 +54,7 @@ The basic usage of `rmdryrun` is similar to the `rm` command:
 rmdryrun [files or directories]
 ```
 
-The -r or --recursive option can be used to recursively remove directories:
+The `-r` or `--recursive` option can be used to recursively remove directories:
 
 ```
 rmdryrun -r [directories]
@@ -71,7 +71,7 @@ $ rmdryrun *
 	Would NOT remove directory dir1 (use -r to remove recursively)
 ```
 
-Using the -r option to recursively display the files that would be removed from a directory:
+Using the `-r` option to recursively display the files that would be removed from a directory:
 
 ```
    $ rmdryrun -r dir1
