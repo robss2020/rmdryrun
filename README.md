@@ -50,7 +50,7 @@ sudo cp rmdryrun.sh /usr/local/bin/rmdryrun.sh
 
 ## Usage
 
-The basic usage of rmdryrun is similar to the rm command:
+The basic usage of `rmdryrun` is similar to the `rm` command:
 
 ```
 rmdryrun [files or directories]
@@ -64,7 +64,7 @@ rmdryrun -r [directories]
 
 ## Example
 
-Here's an example of using rmdryrun to display the files that would be removed from the current directory:
+Displaying the files that would be removed from the current directory:
 
 ```
 $ rmdryrun *
@@ -73,7 +73,7 @@ $ rmdryrun *
 	Would NOT remove directory dir1 (use -r to remove recursively)
 ```
 
-And here's an example of using rmdryrun with the -r option to recursively display the files that would be removed from a directory:
+Using the -r option to recursively display the files that would be removed from a directory:
 
 ```
    $ rmdryrun -r dir1
@@ -82,9 +82,9 @@ And here's an example of using rmdryrun with the -r option to recursively displa
 	  Would NOT remove directory dir1/dir2 (use -r to remove recursively)
 ```
 
-If you like what you can see you can then go up in your history (up arrow) remove the word "dryrun" from the end of the command and add -f to remove confirmations and run the rm command directly. The same files should be deleted.
+If you like what you can see you can then go up in your history (up arrow) remove the word "`dryrun`" from the end of the command and add `-f` to remove confirmations and run the `rm` command directly. The same files should be deleted.
 
-Plase let me know of any corner cases or cases in which rm deletes different files from rmdryrun: rviragh+rmdryrun@gmail.com
+Plase let me know of any cases in which `rm` deletes different files from what `rmdryrun` previewed: `rviragh+rmdryrun@gmail.com`
 
 ## LICENSE
 
