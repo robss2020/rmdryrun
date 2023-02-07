@@ -1,6 +1,6 @@
 # Motivation
 
-Since rm -rf is so dangerous, many people have wondered why it doesn't have a --dry-run switch.  It's time to stop wondering and do something about it.
+Since `rm -rf` is so dangerous, many people have wondered why it doesn't have a `--dry-run` switch.  It's time to stop wondering and do something about it.
 
 ## rmdryrun
 
