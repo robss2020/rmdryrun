@@ -6,45 +6,46 @@ Since `rm -rf` is so dangerous, many people have wondered why it doesn't have a 
 
 rmdryrun is a Linux shell script that simulates the behavior of the `rm` command, but instead of actually deleting files, it displays a list of files and directories that would be deleted.
 
-You use it to show what you would delete if you ran rm.  rmdryrun does not have feature parity with rm and is just meant to give an indication. It does not contain any deletion code.
+You use it to show what you would delete if you ran `rm`.  rmdryrun does not have feature parity with `rm` and is just meant to give an indication. It does not contain any deletion code.
 
 ## Installation
 
 1. Clone or download the repository.
 
-    ```
-    git clone https://github.com/robss2020/rmdryrun.git
-    ```
+```
+git clone https://github.com/robss2020/rmdryrun.git
+```
 
 and then `cd rmdryrun` into the cloned directory.
 
 or just get the file:
 
-    ```
-    curl https://raw.githubusercontent.com/robss2020/rmdryrun/main/rmdryrun.sh
-    ```
+
+```
+curl https://raw.githubusercontent.com/robss2020/rmdryrun/main/rmdryrun.sh
+```
 
 or
 
-    ```
-    wget https://raw.githubusercontent.com/robss2020/rmdryrun/main/rmdryrun.sh
-    ```
+```
+wget https://raw.githubusercontent.com/robss2020/rmdryrun/main/rmdryrun.sh
+```
 
-Examine the file and breathe in its fine aroma of absolutely no actual rm commands.  rmdryrun.sh is a single file.
+Examine the file and breathe in its fine aroma of absolutely no actual `rm` commands.  `rmdryrun.sh` is a single file.
 
 2. Make the `rmdryrun.sh` file executable:
 
-    ```
-    chmod +x rmdryrun.sh
-    ```
+```
+chmod +x rmdryrun.sh
+```
 
 You let the file sit and decant under your careful examination right?
 
 3. Copy the file to a directory in your PATH, such as `/usr/local/bin`:
 
-    ```
-    sudo cp rmdryrun.sh /usr/local/bin/rmdryrun.sh
-    ```
+```
+sudo cp rmdryrun.sh /usr/local/bin/rmdryrun.sh
+```
 
 
 ## Usage
