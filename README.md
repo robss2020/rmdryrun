@@ -10,7 +10,7 @@ You use it to show what you would delete if you ran `rm`.  rmdryrun does not hav
 
 ## Installation
 
-1. Clone or download the repository.
+### Clone or download the repository.
 
 ```
 git clone https://github.com/robss2020/rmdryrun.git
@@ -33,7 +33,7 @@ wget https://raw.githubusercontent.com/robss2020/rmdryrun/main/rmdryrun.sh
 
 Examine the file and breathe in its fine aroma of absolutely no actual `rm` commands.  `rmdryrun.sh` is a single file.
 
-2. Make the `rmdryrun.sh` file executable:
+### Make the `rmdryrun.sh` file executable:
 
 ```
 chmod +x rmdryrun.sh
@@ -41,7 +41,7 @@ chmod +x rmdryrun.sh
 
 You let the file sit and decant under your careful examination right?
 
-3. Copy the file to a directory in your PATH, such as `/usr/local/bin`:
+### Copy the file to a directory in your PATH, such as `/usr/local/bin`:
 
 ```
 sudo cp rmdryrun.sh /usr/local/bin/rmdryrun.sh
@@ -52,34 +52,35 @@ sudo cp rmdryrun.sh /usr/local/bin/rmdryrun.sh
 
 The basic usage of rmdryrun is similar to the rm command:
 
-    ```
-    rmdryrun [files or directories]
-    ```
+```
+rmdryrun [files or directories]
+```
 
 The -r or --recursive option can be used to recursively remove directories:
 
-    ```
-    rmdryrun -r [directories]
-    ```
+```
+rmdryrun -r [directories]
+```
 
 ## Example
 
 Here's an example of using rmdryrun to display the files that would be removed from the current directory:
 
-    ```
-    $ rmdryrun *
-        Would remove file file1.txt
-        Would remove file file2.txt
-        Would NOT remove directory dir1 (use -r to remove recursively)
-    ```
+```
+$ rmdryrun *
+	Would remove file file1.txt
+	Would remove file file2.txt
+	Would NOT remove directory dir1 (use -r to remove recursively)
+```
+
 And here's an example of using rmdryrun with the -r option to recursively display the files that would be removed from a directory:
 
-    ```
-       $ rmdryrun -r dir1
-          Would remove file dir1/file1.txt
-          Would remove file dir1/file2.txt
-          Would NOT remove directory dir1/dir2 (use -r to remove recursively)
-    ```
+```
+   $ rmdryrun -r dir1
+	  Would remove file dir1/file1.txt
+	  Would remove file dir1/file2.txt
+	  Would NOT remove directory dir1/dir2 (use -r to remove recursively)
+```
 
 If you like what you can see you can then go up in your history (up arrow) remove the word "dryrun" from the end of the command and add -f to remove confirmations and run the rm command directly. The same files should be deleted.
 
