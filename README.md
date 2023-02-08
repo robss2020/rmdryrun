@@ -80,9 +80,9 @@ Using the `-r` option to recursively display the files that would be removed fro
 	  Would NOT remove directory dir1/dir2 (use -r to remove recursively)
 ```
 
-If you like what you can see you can then go up in your history (up arrow) remove the word "`dryrun`" from the end of the command and add `-f` to remove confirmations and run the `rm` command directly. The same files should be deleted.
+If you are satisfied, you can then go up in your history (up arrow) remove the word "`dryrun`" from the end of the command and add `-f` to remove confirmations and run the `rm` command directly. The same files should be deleted.
 
-Plase let me know of any cases in which `rm` deletes different files from what `rmdryrun` previewed: `rviragh+rmdryrun@gmail.com`
+Please let me know of any cases in which `rm` deletes different files from what `rmdryrun` previewed: `rviragh+rmdryrun@gmail.com`
 
 ## LICENSE
 
