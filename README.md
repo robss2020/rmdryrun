@@ -77,7 +77,7 @@ Using the `-r` option to recursively display the files that would be removed fro
    $ rmdryrun -r dir1
 	  Would remove file dir1/file1.txt
 	  Would remove file dir1/file2.txt
-	  Would NOT remove directory dir1/dir2 (use -r to remove recursively)
+	  Would recursively remove directory dir2
 ```
 
 If you are satisfied, you can then go up in your history (up arrow) remove the word "`dryrun`" from the end of the command and add `-f` to remove confirmations and run the `rm` command directly. The same files should be deleted.
